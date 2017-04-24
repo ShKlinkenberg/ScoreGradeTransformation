@@ -6,4 +6,5 @@ You can directly source to this function.
 
 ` 
 source("https://shklinkenberg.github.io/ScoreGradeTransformation/ScoreGradeTransformation.R")
+ScoreGradeTransformation
 `
