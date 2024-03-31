@@ -1,4 +1,4 @@
-ScoreGradeTransformationCorrectForGuessingOnMax <- function(score, max.score, guessing.score) {
+ScoreGradeTransformationCorrectForGuessingOnMaxScore <- function(score, max.score, guessing.score) {
   # Transform raw scores to guessing corrected for total amount of points on exam
   #
   # Args:
