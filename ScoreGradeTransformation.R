@@ -55,7 +55,7 @@ SGT_CorrectOnlyForQuessQuestionsLimitToZero <- function(sum.guess.questions, sum
 
   # Calculate proportion guess corrected score
   
-  guess.corrected.score = sum.guess.questions - total.guess.score
+  guess.corrected.score = sum.guess.questions - max.guess.score
 
   # Limit guess corrected score to 0. In case the guess score is less than the total amount of quess points. 
   # This ensures the guess part does not become negative and that students need to compensate the negative guessing score
