@@ -7,7 +7,12 @@ You can directly source to this function.
 ```
 source("https://shklinkenberg.github.io/ScoreGradeTransformation/ScoreGradeTransformation.R")
 
-ScoreGradeTransformationCorrectForGuessingOnMaxScore
+# Available functions
 
+# Correct for guessing on max score of total test
+ScoreGradeTransformationCorrectForGuessingOnMaxScore
+# Correct only on guessing questions
 ScoreGradeTransformationCorrectForGuessingOnClosed
+# Correct only on guessing questions but limit guessing subtraction to zero
+SGT_CorrectOnlyForQuessQuestionsLimitToZero
 ```
