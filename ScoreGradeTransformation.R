@@ -67,7 +67,7 @@ SGT_CorrectOnlyForQuessQuestionsLimitToZero <- function(sum.guess.questions, sum
 
   guess.corrected.max.quess.score = max.non.guess.questions - max.guess.score
   
-  grade = ( guess.corrected.score / guess.corrected.max.quess.score * max.non.guess.questions + sum.non.guess.questions ) / max.points * 10
+  grade = ( ( guess.corrected.score / guess.corrected.max.quess.score ) * max.non.guess.questions + sum.non.guess.questions ) / max.points * 10
   
   # Cap grade to minimum and maximum
   grade[grade <  0] = 0
